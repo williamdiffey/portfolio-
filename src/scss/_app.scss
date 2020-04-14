@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $background-color;
+  margin: 0;
+}
+
+h1,
+p,
+li {
+  font-family: 'Raleway', sans-serif;
+  color: $font-color;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: $font-color;
+  font-size: 80%;
+  margin: 0;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+
+  &:link {
+    color: $font-color;
+  }
+  &:visited {
+    color: $font-color;
+  }
+  &:hover {
+    color: $details-color;
+    cursor: pointer;
+  }
+  &:active {
+    color: $details-color;
+  }
+}

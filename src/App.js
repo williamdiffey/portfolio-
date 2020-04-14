@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
+import NavBar from './NavBar'
+import Hero from './Hero'
+import Bio from './Bio'
+import ProjectPrekursor from './ProjectPrekusor'
+import ProjectPizza from './ProjectPizza'
+import ProjectFootieText from './ProjectFootietext'
+import ProjectNutri from './ProjectNutri'
+import ProjectSamplesQuiz from './ProjectSamplesQuiz'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Router>
+        <Route
+          exact
+          path='/'
+          render={() => (
+            <Fragment>
+              <NavBar />
+              <Hero />
+              <Bio />
+              <ProjectPrekursor />
+              <ProjectPizza />
+              <ProjectFootieText />
+              <ProjectNutri />
+              <ProjectSamplesQuiz />
+            </Fragment>
+          )}
+        />
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

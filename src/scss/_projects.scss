@@ -1,0 +1,37 @@
+.project {
+  background: $foreground-color;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 120%;
+}
+
+.created-using {
+  text-align: center;
+}
+
+.project-links {
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-link {
+  font-family: 'Roboto', sans-serif;
+  margin: 5px;
+  font-size: 95%;
+}
+
+.screenshots {
+  display: flex;
+  overflow: hidden;
+  min-height: 320px;
+}
+
+.screenshot {
+  flex-basis: auto;
+  width: 150px;
+  display: inline;
+}

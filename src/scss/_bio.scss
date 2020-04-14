@@ -1,0 +1,30 @@
+.bio {
+  background: $foreground-color;
+  color: $font-color;
+}
+
+p {
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.skills {
+  background: $foreground-color;
+}
+
+ul {
+  color: $font-color;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+}
+
+li {
+  text-align: center;
+}
