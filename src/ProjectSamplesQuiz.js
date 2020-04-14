@@ -15,7 +15,7 @@ export default function ProjectSamplesQuiz() {
         make more great music.
       </p>
       <p className='created-using'>
-        Created using Jquery, Javascript, HTML/CSS
+        Created using JQuery, Javascript, HTML/CSS
       </p>
       <ul className='project-links'>
         <li>

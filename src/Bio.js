@@ -26,7 +26,7 @@ export default function Bio() {
           <li>React</li>
           <li>React Native</li>
           <li>Node.js / Express</li>
-          <li>PostrgreSQL</li>
+          <li>PostgreSQL</li>
           <li>Sass</li>
           <li>D3</li>
           <li>Javascript</li>

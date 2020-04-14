@@ -5,7 +5,6 @@ import Results from './images/islington-english-nutrition.herokuapp.com_(iPhone 
 export default function ProjectNutri() {
   return (
     <div className='project'>
-      <h2>Projects</h2>
       <h3 className='project-title'>Islington Education Nutrition App</h3>
       <p>
         Description: A simplified nutrition searching app for students of my

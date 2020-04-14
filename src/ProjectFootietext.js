@@ -5,7 +5,6 @@ import tagsScreen from './images/prekursor.now.sh_(iPhone 6_7_8) - tags.png'
 export default function ProjectFootieText() {
   return (
     <div className='project'>
-      <h2>Projects</h2>
       <h3 className='project-title'>FootieText App</h3>
       <p>
         Description: A commissioned work to create a PWA that presents EPL
