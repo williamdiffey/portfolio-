@@ -7,12 +7,11 @@ export default function ProjectFootieText() {
     <div className='project'>
       <h3 className='project-title'>FootieText App</h3>
       <p>
-        Description: A commissioned work to create a PWA that presents EPL
-        football data in the style of 'Ceefax'; a pre-internet TV service from
-        the 1970s. Design brief: to present not only scores, league tables etc
-        but also player stats and game events; to have a personalised homepage
-        for users; to have an number input for selecting pages as per the
-        original service.
+        A commissioned work to create a PWA that presents EPL football data in
+        the style of 'Ceefax'; a pre-internet TV service from the 1970s. <br />{' '}
+        Design brief: to present not only scores, league tables etc but also
+        player stats and game events; to have a personalised homepage for users;
+        to have an number input for selecting pages as per the original service.
       </p>
       <p className='created-using'>
         Created using PostgreSQL, Express, React, Node.js.
@@ -33,11 +32,11 @@ export default function ProjectFootieText() {
           <img
             alt='contents screen'
             src={contentsScreen}
-            class='screenshot'
+            className='screenshot'
           ></img>
         </li>
         <li>
-          <img alt='tags popout' src={tagsScreen} class='screenshot'></img>
+          <img alt='tags popout' src={tagsScreen} className='screenshot'></img>
         </li>
       </ul>
     </div>

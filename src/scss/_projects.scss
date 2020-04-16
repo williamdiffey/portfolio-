@@ -35,3 +35,12 @@
   width: 150px;
   display: inline;
 }
+
+.ipad-screenshot {
+  width: 440px;
+  @media #{$mobile} {
+    display: none;
+  }
+}
+
+// MQ750

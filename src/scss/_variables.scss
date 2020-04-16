@@ -3,7 +3,9 @@ $foreground-color: #1d2226;
 $font-color: #a8bbbf;
 $details-color: #a54a4a;
 
-$mobile: 'screen and (max-width: 700px)';
+$mobile: 'only screen and (max-width: 740px)';
+$ipad: 'only screen and (min-width: 741px)';
+// $ipad: 'only screen and (min-width: 741px) and (max-width: 1024px)';
 
 /* Color Theme Swatches in Hex */
 // /* .Creepy-doll-face,-cyberpunk-style-1-hex { color: #2F383F; }

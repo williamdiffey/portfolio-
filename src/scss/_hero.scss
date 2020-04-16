@@ -5,6 +5,10 @@
   width: 100%;
   background: $foreground-color;
   margin-bottom: 5px;
+  min-height: 200px;
+  @media #{$ipad} {
+    min-height: 300px;
+  }
 }
 
 .william {

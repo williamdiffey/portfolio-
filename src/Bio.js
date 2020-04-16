@@ -7,7 +7,7 @@ export default function Bio() {
         <h2>Bio</h2>
         <p>
           I am a full stack web-developer and recent graduation of the Thinkful
-          Software Engineering course.{' '}
+          Software Engineering course.
         </p>
         <p>
           I have an MA in Education and I am passionate about improving

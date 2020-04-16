@@ -1,6 +1,7 @@
 import React from 'react'
 import Customer from './images/food-van-demo-client.now.sh_contents(iPhone 6_7_8) customer.png'
 import Admin from './images/food-van-demo-client.now.sh_contents(iPhone 6_7_8) admin.png'
+import iPad from './images/food-van-demo-client.now.sh_contents(iPad).png'
 
 export default function ProjectPizza() {
   return (
@@ -27,17 +28,28 @@ export default function ProjectPizza() {
             className='project-link'
             href='https://food-van-demo-client.now.sh/signin'
           >
-            Demo Site - please sign in and try the editing!
+            Demo Site
           </a>
         </li>
       </ul>
 
       <ul className='screenshots'>
         <li>
-          <img alt='contents screen' src={Customer} class='screenshot'></img>
+          <img
+            alt='contents screen'
+            src={Customer}
+            className='screenshot'
+          ></img>
         </li>
         <li>
-          <img alt='tags popout' src={Admin} class='screenshot'></img>
+          <img
+            alt='contents screen on ipad'
+            src={iPad}
+            className='ipad-screenshot'
+          ></img>
+        </li>
+        <li>
+          <img alt='tags popout' src={Admin} className='screenshot'></img>
         </li>
       </ul>
     </div>

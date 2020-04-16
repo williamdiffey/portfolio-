@@ -12,7 +12,7 @@ export default function NavBar(props) {
         src={WDicon}
         width='100'
         height='100'
-        class='logo'
+        className='logo'
       ></img>
 
       <div
