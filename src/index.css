@@ -148,6 +148,16 @@ a:active {
 }
 @media only screen and (min-width: 741px) {
   .hero {
+    padding-top: 70px;
+  }
+}
+@media only screen and (min-width: 741px) {
+  .hero {
+    font-size: 200%;
+  }
+}
+@media only screen and (min-width: 741px) {
+  .hero {
     min-height: 300px;
   }
 }
@@ -161,6 +171,11 @@ a:active {
   -webkit-animation: flicker-in-1 3s linear both;
   animation: flicker-in-1 3s linear both;
 }
+@media only screen and (min-width: 741px) {
+  .william {
+    padding-left: 176px;
+  }
+}
 
 .diffey {
   margin: 0px;
@@ -171,6 +186,11 @@ a:active {
   --webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
     both;
   animation: text-focus-in 4s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+@media only screen and (min-width: 741px) {
+  .diffey {
+    padding-left: 160px;
+  }
 }
 
 @-webkit-keyframes flicker-in-1 {
@@ -442,6 +462,7 @@ li {
   font-family: "Roboto", sans-serif;
   margin: 5px;
   font-size: 95%;
+  font-weight: 600;
 }
 
 .screenshots {

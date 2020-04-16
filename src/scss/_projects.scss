@@ -5,6 +5,7 @@
 .project-title {
   text-align: center;
   font-size: 120%;
+  // color: $details-color !important;
 }
 
 .created-using {
@@ -22,6 +23,8 @@
   font-family: 'Roboto', sans-serif;
   margin: 5px;
   font-size: 95%;
+  font-weight: 600;
+  // color: $details-color !important;
 }
 
 .screenshots {

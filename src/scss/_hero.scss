@@ -1,7 +1,13 @@
 .hero {
   padding-top: 20px;
+  @media #{$ipad} {
+    padding-top: 70px;
+  }
   padding-bottom: 20px;
   font-size: 150%;
+  @media #{$ipad} {
+    font-size: 200%;
+  }
   width: 100%;
   background: $foreground-color;
   margin-bottom: 5px;
@@ -16,6 +22,9 @@
   text-align: left;
   margin-top: 60px;
   padding-left: 76px;
+  @media #{$ipad} {
+    padding-left: 176px;
+  }
   line-height: 50px;
   -webkit-animation: flicker-in-1 3s linear both;
   animation: flicker-in-1 3s linear both;
@@ -25,6 +34,9 @@
   margin: 0px;
   text-align: left;
   padding-left: 60px;
+  @media #{$ipad} {
+    padding-left: 160px;
+  }
   padding-top: 0px;
   line-height: 40px;
   --webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
