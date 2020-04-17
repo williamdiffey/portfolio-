@@ -7,16 +7,11 @@ export default function Bio() {
         <h2>Bio</h2>
         <p>
           I am a full stack web-developer and recent graduation of the Thinkful
-          Software Engineering course.
-        </p>
-        <p>
-          I have an MA in Education and I am passionate about improving
-          educational standards. I also love cooking, making music and creating
-          3D renders.
-        </p>
-        <p>
-          I currently reside in South Korea with my family where I run an
-          English Language School and an App Development Agency.
+          Software Engineering course. I have an MA in Education and I am
+          passionate about improving educational standards. I also love cooking,
+          making music and creating 3D renders. I currently reside in South
+          Korea with my family where I run an English Language School and an App
+          Development Agency.
         </p>
       </section>
 

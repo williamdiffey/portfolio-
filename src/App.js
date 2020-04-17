@@ -21,9 +21,9 @@ function App() {
               <NavBar />
               <Hero />
               <Bio />
-              <ProjectPrekursor />
-              <ProjectPizza />
               <ProjectFootieText />
+              <ProjectPizza />
+              <ProjectPrekursor />
               <ProjectNutri />
               <ProjectSamplesQuiz />
             </Fragment>
