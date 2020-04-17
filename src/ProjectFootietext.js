@@ -1,6 +1,7 @@
 import React from 'react'
-import contentsScreen from './images/prekursor.now.sh_(iPhone 6_7_8) - contents.png'
-import tagsScreen from './images/prekursor.now.sh_(iPhone 6_7_8) - tags.png'
+import contentsScreen from './images/localhost_3000_324(iPhone 6_7_8).png'
+import statsScreen from './images/localhost_3000_324(iPhone 6_7_8) (1).png'
+import iPad from './images/localhost_3000_302(iPad).png'
 
 export default function ProjectFootieText() {
   return (
@@ -36,7 +37,14 @@ export default function ProjectFootieText() {
           ></img>
         </li>
         <li>
-          <img alt='tags popout' src={tagsScreen} className='screenshot'></img>
+          <img
+            alt='league table on ipad'
+            src={iPad}
+            className='ipad-screenshot'
+          ></img>
+        </li>
+        <li>
+          <img alt='tags popout' src={statsScreen} className='screenshot'></img>
         </li>
       </ul>
     </div>

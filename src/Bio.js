@@ -15,8 +15,8 @@ export default function Bio() {
           3D renders.
         </p>
         <p>
-          I currently reside in South Korea with my family where I run several
-          small businesses.
+          I currently reside in South Korea with my family where I run an
+          English Language School and an App Development Agency.
         </p>
       </section>
 
