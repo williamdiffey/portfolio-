@@ -15,7 +15,7 @@ export default function ProjectFootieText() {
         to have an number input for selecting pages as per the original service.
       </p>
       <p className='created-using'>
-        Created using PostgreSQL, Express, React, Node.js.
+        Created using PostgreSQL, Express, React, Node.js, CRON.
       </p>
       <ul className='project-links'>
         <li>
